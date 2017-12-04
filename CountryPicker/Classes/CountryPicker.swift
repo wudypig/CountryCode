@@ -59,6 +59,11 @@ open class CountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSo
         super.init(frame: frame)
         setup()
     }
+	
+	public init() {
+		super.init(frame: CGRect.zero)
+		setup()
+	}
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
