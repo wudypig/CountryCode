@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CountryPickerSwift'
-  s.version          = '1.5'
+  s.version          = '1.5.1'
   s.summary          = 'Swift CountryPicker'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: CountryCode Picker
                        DESC
 
-  s.homepage         = 'https://github.com/4taras4/CountryCode'
+  s.homepage         = 'https://github.com/wudypig/CountryCode'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '4taras4' => '4taras4@gmail.com' }
-  s.source           = { :git => 'https://github.com/4taras4/CountryCode.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wudypig/CountryCode.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lulz_ua'
   s.ios.deployment_target = '8.0'
   s.module_name  = 'CountryPicker'
